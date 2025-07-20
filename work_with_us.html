@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formStyle.css">
+
+    <!-- for using font awesome icons... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div id="side-nav">
+
+    </div>
+
+    <form id="contactForm" action="#">
+        <div id="outer">
+            <p>Got an Idea? Let’s Make It Real</p>
+
+            <div id="inner">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="mail">Your E-mail</label>
+                <input type="email" name="email" id="mail">
+
+                <label for="idea">Your idea/project</label>
+                <textarea name="idea" id="idea" rows="5" cols="75"></textarea>
+
+                <div class="buttons">
+                    <button type="reset" id="reset">Reset</button>
+                    <button type="submit" id="submit">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup" class="popup hidden">
+            <p>Your message has been sent successfully!</p>
+        </div>
+    </form>
+
+
+    <!--Particle.js Background -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+
+    <!-- linked js file... -->
+    <script src="script.js"></script>
+</body>
+</html>
+

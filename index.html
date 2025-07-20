@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formStyle.css">
+
+    <!-- for using font awesome icons... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <!-- Particle Background Layer -->
+  <div id="particles-js"></div>
+
+    <header>
+        <nav>
+            <div class="navbar"><a href="#">Home</a></div>
+            <div class="navbar"><a href="#">About</a></div>
+            <div class="navbar"><a href="#mywork">My Work</a></div>
+            <div class="navbar"><a href="contact.html" target="_blank">Contact</a></div>
+            <div class="navbar"><a href="work_with_us.html" target="_blank">Work with us</a></div>
+        </nav>
+    </header>
+
+
+    <main>
+       <div id="intro-div">
+        <div id="intro">
+            <h1>I'm a <span id="typed"></span></h1>
+            <p id="intro-para">Aspiring full-stack developer and coding enthusiast. I love building things from scratch, solving tricky problems, and constantly learning new technologies to stay ahead in the ever-evolving tech world.</p>
+
+            <div id="icon-links-in-intro">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>              
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+
+        </div>
+        <div id="photo"><img src="photo.jpg" alt="image"></div>
+       </div>
+
+
+       <!-- My work -->
+        <div class="mywork" id="mywork">
+            <div><h1>My Digital Playground , built with ❤️</h1></div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image"><img src="assests/tictactoe.png" alt=""></div>
+                    <div class="techstack"></div>
+                    <div class="present-live">
+
+                        <a href="https://github.com/nikithebot/Tic-Tac-Toe" target="_blank"><button class="code-link">View Source Code</button></a>
+
+                        <a href="https://tic-tac-7bcm6ayl3-nixsss-projects.vercel.app" target="_blank"><button class="code-link">View on live server</button></a>
+
+                    </div>
+                </div>
+
+                <div class="card">
+    
+                </div>
+
+                <div class="card">
+    
+                </div>
+
+                
+            </div>
+        </div>
+
+
+       <!-- contact info... -->
+       <div id="contact-heading"><h1>404? Not Found... But I Am!</h1></div>
+
+       <div id="contact-div">
+        <div id="workWithUs-para"><p>Loved my work and want to clone the brain behind it?... Or want to fork this developer?
+    Whether you’ve got bugs to squash, features to build, or just want to talk code over coffee (or caffeine-free commits), I’m all ears... <br><br>
+    Ping me for collabs, queries, freelance gigs, or spontaneous hackathons — my inbox has zero latency and infinite uptime.
+    Think of this as contact() — no API key required... <br><br> Let's build something awesome... shoot me a message! — just good vibes and clean commits...
+    </p></div>
+
+       <div id="icon-links">
+        <a href="https://www.linkedin.com/in/kushmitashah/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-solid fa-at"></i></a>
+        <a href="work_with_us.html" target="blank"><i class="fa-brands fa-telegram"></i></a>
+       </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-divs made-with-love"><i>Made with <span id="love">&hearts;</span> by ~Kushmita Shah</i></div>
+        <div class="footer-divs" id="footer-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">My Work</a>
+            <a href="#contact-heading">Contact</a>
+            <a href="#intro-div">Back to top</a>
+        </div>
+        <!-- leetcode, codechef, codeforces -->
+        <div class="footer-divs code-icons" id="footer-links">
+            <a href="https://codeforces.com/profile/NIXSS" target="_blank"><img src="assests/codeforces.png" alt="Codeforces"></a>
+            <a href="https://leetcode.com/u/NIXSS/" target="_blank"><img src="assests/leetcode.png" alt="Leetcode"></a>
+            <a href="https://www.codechef.com/users/nixss" target="_blank"><img src="assests/codechef.png" alt="Codechef"></a>
+        </div>
+        <div class="footer-divs" id="copyright">
+            Copyright &copy; Kushmita Shah - All rights reserved
+        </div>
+    </footer>
+
+
+    <!-- Typed.js Effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Particle.js Background -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+
+    <!-- linked js file... -->
+    <script src="script.js"></script>
+</body>
+</html>
