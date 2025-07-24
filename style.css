@@ -10,6 +10,7 @@ html, body{
     background: linear-gradient(to bottom, #010103, #09011a, #130431);
     background: linear-gradient(to top, #0a0020, #160040);
     background: linear-gradient(to top, rgb(25, 3, 39), rgb(0, 0, 0));
+    background: linear-gradient(to top, rgb(11, 2, 17), rgb(0, 0, 0));
     color: white;
     z-index: 0;
     min-height: 100vh;
@@ -168,6 +169,7 @@ h1{
     background: transparent;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     /* background-color: #00b6aa; */
 }
 
@@ -198,6 +200,8 @@ h1{
     box-shadow: 2px 2px 10px silver, 10px 10px 30px rgb(103, 0, 141);
     display: flex;
     flex-direction: column;
+    backdrop-filter: blur(8px);
+    background: linear-gradient(90deg, black, rgb(25, 3, 39));
 }
 
 .card:hover{
