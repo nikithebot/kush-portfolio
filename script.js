@@ -89,4 +89,20 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 
 
+// Reveal timeline items on scroll using Intersection Observer
+const items = document.querySelectorAll(".timeline-item");
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("active");
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+items.forEach(item => {
+  observer.observe(item);
+});
 
